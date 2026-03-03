@@ -98,13 +98,26 @@ Output: P(real)
 ```
 
 ---
-
 ## 📊 Results
 
-### Output Plots
-1. **PDF Estimation using GAN (Real Histogram + GAN KDE Curve)** — Smooth density curve from 10,000 GAN-generated samples
-2. **Real vs Generated Distribution** — Overlay histogram for visual comparison
-3. **Estimated PDF from GAN Samples** — Final learned probability density function
+### 1️⃣ PDF Estimation using GAN (Real Histogram + GAN KDE Curve)
+Smooth density curve from 10,000 GAN-generated samples.
+
+![PDF Estimation](outputs/estimated_PDF.png)
+
+---
+
+### 2️⃣ Real vs Generated Distribution
+Overlay histogram for visual comparison between real and generated samples.
+
+![Real vs Generated](outputs/real_generated.png)
+
+---
+
+### 3️⃣ Estimated PDF from GAN Samples
+Final learned probability density function from GAN samples.
+
+![Estimated PDF](outputs/kde_generated.png)
 
 ### PDF Estimation
 After training, **10,000 samples** were drawn from the generator and used to estimate the PDF via:
